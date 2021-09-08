@@ -4,7 +4,7 @@ public class TestaConcicional {
 		public static void main(String[] args) {
 		    System.out.println("testando condicionais");
 	        int idade = 17;
-	        int quantidadePessoas = 3;
+	        int quantidadePessoas = 1;
 
 	        if (idade >= 18) {
 	            System.out.println("você tem mais de 18 anos");
