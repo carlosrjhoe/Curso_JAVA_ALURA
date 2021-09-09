@@ -5,7 +5,7 @@ public class TestaFor {
 		
 		for(int i = 0; i <= 10; i++) {
 			
-			System.out.println(i + " x " + 5 + " = " + i * 5);
+			System.out.println(i + " x " + 3 + " = " + i * 3);
 		}
 	}
 }
