@@ -12,9 +12,9 @@ public class TestaMetodo {
 		System.out.println(conta.saldo);
 		
 		Conta contaJhoe = new Conta();
-		contaJhoe.deposita(200.00);
+		contaJhoe.deposita(1000.00);
 		
-		if(contaJhoe.transfere(1000, conta)) {
+		if(contaJhoe.transfere(500, conta)) {
 			System.out.println("Transferencia realizada!");
 		} else {
 			System.out.println("faltou dinheiro!");

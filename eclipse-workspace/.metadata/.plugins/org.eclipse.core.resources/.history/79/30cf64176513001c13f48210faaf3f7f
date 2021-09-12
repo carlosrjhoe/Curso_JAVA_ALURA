@@ -5,21 +5,17 @@ public class TestaMetodo {
 		
 		Conta conta = new Conta();
 		conta.saldo = 100;
-		conta.deposita(250.00);
+		conta.deposita(250.01);
 		System.out.println(conta.saldo);
 		
 		conta.saca(150.0);
 		System.out.println(conta.saldo);
 		
 		Conta contaJhoe = new Conta();
-		contaJhoe.deposita(200.00);
+		contaJhoe.deposita(1000.00);
 		
-		if(contaJhoe.transfere(1000, conta)) {
-			System.out.println("Transferencia realizada!");
-		} else {
-			System.out.println("faltou dinheiro!");
-		}
-		System.out.println(conta.saldo);
+		contaJhoe.transfere(300, conta);
 		System.out.println(contaJhoe.saldo);
+		System.out.println(conta.saldo);
 	}
 }
