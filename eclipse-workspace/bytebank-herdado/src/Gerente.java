@@ -20,4 +20,9 @@ public class Gerente extends Funcionario {
 		//TODO Auto-generated method stub
 		
 	}
+
+	public void setNome(String string) {
+		// TODO Auto-generated method stub
+		
+	}
 }

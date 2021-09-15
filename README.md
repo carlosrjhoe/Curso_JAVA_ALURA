@@ -19,3 +19,12 @@ que a classe filha também é chamada de sub class
 como aumentar a visibilidade de um membro (atributo, método) através do protected
 como acessar ou chamar um membro (atributo, método) através do super
 como redefinir um método através da sobrescrita
+
+No dia 15/09/21
+
+Nessa aula aprendemos que:
+
+objetos não mudam de tipo;
+a referência pode mudar, e aí entra o polimorfismo;
+o polimorfismo permite usar referências mais genéricas para a comunicação com um objeto;
+o uso de referências mais genéricas permite desacoplar sistemas.
