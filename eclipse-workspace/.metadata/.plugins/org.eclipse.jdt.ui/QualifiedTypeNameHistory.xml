@@ -3,4 +3,6 @@
     <fullyQualifiedTypeName name="javax.swing.plaf.synth.SynthScrollBarUI"/>
     <fullyQualifiedTypeName name="com.sun.tools.sjavac.comp.dependencies.PublicApiCollector"/>
     <fullyQualifiedTypeName name="java.lang.String"/>
+    <fullyQualifiedTypeName name="Funcionario"/>
+    <fullyQualifiedTypeName name="Gerente"/>
 </qualifiedTypeNameHistroy>
