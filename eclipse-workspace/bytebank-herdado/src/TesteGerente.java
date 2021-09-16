@@ -4,8 +4,8 @@ public class TesteGerente {
 	public static void main(String[] args) {
 				
 		Gerente g1 = new Gerente();
-		g1.setNome("Marco");
-		g1.setCpf("235568413");
+		g1.setNome("Carlos Roberto Conceição Júnior");
+		g1.setCpf("060.199.314-47");
 		g1.setSalario(5000.0);
 		
 		System.out.println(g1.getNome());
