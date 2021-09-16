@@ -1,5 +1,5 @@
 
-public class Administrador extends FuncionarioAutenticavel {
+public class Administrador extends Funcionario implements Autenticavel {
 
 	private int senha;
 
@@ -14,8 +14,4 @@ public class Administrador extends FuncionarioAutenticavel {
             return false;
         }
     }
-    
-	public double getBonificacao() {
-		return 50;
-	}
 }
