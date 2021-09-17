@@ -1,23 +1,12 @@
 
+//nao pode instanciar dessa classe, pq é abstrata
 public abstract class Funcionario {
 	
 	private String nome;
 	private String cpf;
 	private double salario;
-	protected int senha;
-
-    public void setSenha(int senha) {
-        this.senha = senha;
-    }
-
-    public boolean autentica(int senha) {
-        if(this.senha == senha) {
-            return true;
-        } else {
-            return false;
-        }
-    }
 	
+	//metodo sem corpo, nao há implementacao
 	public abstract double getBonificacao();
 	
 	public String getNome() {

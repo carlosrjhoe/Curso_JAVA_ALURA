@@ -1,30 +1,25 @@
 
-public abstract class Administrador extends Funcionario implements Autenticavel {
+public class Administrador extends Funcionario implements Autenticavel{
 
 	private AutenticacaoUtil autenticador;
 
-    public void Cliente(){
-
-        this.setAutenticador(new AutenticacaoUtil());
-    }
-
-    public void setSenha(int senha) {
-        this.senha = senha;
-    }
-
-    public boolean autentica(int senha) {
-        if(this.senha == senha) {
-            return true;
-        } else {
-            return false;
-        }
-    }
-
-	public AutenticacaoUtil getAutenticador() {
-		return autenticador;
+	public Administrador() {
+		this.autenticador = new AutenticacaoUtil();
+	}
+	
+	@Override
+	public double getBonificacao() {
+		return 50;
+	}
+	
+	@Override
+	public void setSenha(int senha) {
+		this.autenticador.setSenha(senha);
 	}
 
-	public void setAutenticador(AutenticacaoUtil autenticador) {
-		this.autenticador = autenticador;
+	@Override
+	public boolean autentica(int senha) {
+		return this.autenticador.autentica(senha);
 	}
+
 }
