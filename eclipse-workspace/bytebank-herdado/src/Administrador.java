@@ -1,7 +1,12 @@
 
-public class Administrador extends Funcionario implements Autenticavel {
+public abstract class Administrador extends Funcionario implements Autenticavel {
 
-	private int senha;
+	private AutenticacaoUtil autenticador;
+
+    public void Cliente(){
+
+        this.setAutenticador(new AutenticacaoUtil());
+    }
 
     public void setSenha(int senha) {
         this.senha = senha;
@@ -14,4 +19,12 @@ public class Administrador extends Funcionario implements Autenticavel {
             return false;
         }
     }
+
+	public AutenticacaoUtil getAutenticador() {
+		return autenticador;
+	}
+
+	public void setAutenticador(AutenticacaoUtil autenticador) {
+		this.autenticador = autenticador;
+	}
 }

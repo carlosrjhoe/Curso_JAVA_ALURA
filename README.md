@@ -44,3 +44,11 @@ Não existe herança múltipla em Java.
 Conceitos de interface.
 Diferenças entre classes abstratas e interfaces.
 interfaces são uma alternativa a herança referente ao polimorfismo
+
+No dia 17/09/21
+
+Nessa aula, aprendemos:
+
+Mais a fundo sobre o uso de interfaces
+Trabalhamos mais a fundo com herança
+Vimos outras aplicações de heranças e interfaces
