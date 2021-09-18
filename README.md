@@ -52,3 +52,10 @@ Nessa aula, aprendemos:
 Mais a fundo sobre o uso de interfaces
 Trabalhamos mais a fundo com herança
 Vimos outras aplicações de heranças e interfaces
+
+Nessa aula, aprendemos:
+
+O que é, para que serve e como funciona a pilha de execução.
+O que é depuração (debug) e para que serve.
+Como utilizar o Eclipse e sua perspectiva de debug.
+Como alternar entre perspectivas do Eclipse.
