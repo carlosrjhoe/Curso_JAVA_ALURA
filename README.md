@@ -70,3 +70,10 @@ Tratar exceções com os blocos try-catch.
 Manipular uma exceção lançada dentro do bloco catch.
 Tratar múltiplas exceções com mais de um bloco catch ou usando Multi-Catch utilizando o pipe (|).
 
+Nessa aula, aprendemos:
+
+que existe um bloco finally, útil para o fechamento de recursos (como conexão);
+quando há um bloco finally o bloco catch é opcional;
+que o bloco finally é sempre executado, sem ou com exceção;
+como usar o try-with-resources.
+
