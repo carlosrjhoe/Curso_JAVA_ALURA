@@ -77,3 +77,12 @@ quando há um bloco finally o bloco catch é opcional;
 que o bloco finally é sempre executado, sem ou com exceção;
 como usar o try-with-resources.
 
+O que aprendemos?
+
+packages servem para organizar o nosso código
+packages fazem parte do FQN (Full Qualified Name) da classe
+o nome completo da classe (FQN) é composto de: PACKAGE.NOME_SIMPLES_CLASSE
+a definição do package deve ser a primeira declaração no código fonte
+para facilitar o uso de classes de outros packages podemos importá-los
+os imports ficam logo após da declaração do package
+a nomenclatura padrão é usar o nome do domínio na web ao contrário junto com o nome do projeto, por exemplo:
