@@ -2,10 +2,11 @@ public class Teste {
 	
     public static void main(String [] args) {
     	
-        Conta minhaConta = new Conta();
-        minhaConta.saldo = 500.0;
-        Conta outraConta = minhaConta;
-        outraConta.saldo += 1000.0;
-        System.out.println(minhaConta.saldo);
+    	Object cc = new ContaCorrente(22, 33);
+        Object cp = new ContaPoupanca(33, 22);
+
+        System.out.println(cc);
+        System.out.println(cp);
+    	
     }
 }
