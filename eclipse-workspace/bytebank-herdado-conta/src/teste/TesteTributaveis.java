@@ -1,3 +1,4 @@
+import br.com.bytebank.banco.modelo.ContaCorrente;
 
 public class TesteTributaveis {
 

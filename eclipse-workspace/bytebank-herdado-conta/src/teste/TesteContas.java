@@ -1,3 +1,4 @@
+import br.com.bytebank.banco.modelo.SaldoInsuficienteException;
 
 public class TesteContas {
 

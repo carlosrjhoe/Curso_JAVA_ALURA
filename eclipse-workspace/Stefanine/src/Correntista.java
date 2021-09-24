@@ -14,7 +14,7 @@ public class Correntista {
 
 
 
-        if(correntista.equals("joao")){
+        if(correntista.equals("Carlos")){
 
             double saldoLiquido = 200_000.00;
 
@@ -32,13 +32,13 @@ public class Correntista {
 
             if(escolha == 1){
 
-                System.out.println("Digite o valor para depósito: ");
+                System.out.println("Digite o valor para depï¿½sito: ");
 
                 double valorDeposito = s.nextDouble();
 
                 saldoPostDeposit = saldoLiquido + valorDeposito;
 
-                System.out.println("Seu novo saldo é de: " + saldoPostDeposit);
+                System.out.println("Seu novo saldo ï¿½ de: " + saldoPostDeposit);
 
             }else if(escolha == 2){
 
@@ -48,17 +48,17 @@ public class Correntista {
 
                 saldoPostSaque = saldoLiquido - valorSaque;
 
-                System.out.println("Seu novo saldo é de: " + saldoPostSaque);
+                System.out.println("Seu novo saldo ï¿½ de: " + saldoPostSaque);
 
             }else if(escolha == 3){
 
-                System.out.println("Seu saldo é de: " + saldoLiquido);
+                System.out.println("Seu saldo ï¿½ de: " + saldoLiquido);
 
             }else{
 
-                System.out.println("Você não escolheu dentre as opções corretas.");
+                System.out.println("Vocï¿½ nï¿½o escolheu dentre as opï¿½ï¿½es corretas.");
 
-                System.out.println("Operação cancelada.");
+                System.out.println("Operaï¿½ï¿½o cancelada.");
 
                 System.exit(escolha);
 
@@ -68,9 +68,9 @@ public class Correntista {
 
         }else{
 
-            System.out.println("Seu nome não consta em nossos cadastros.");
+            System.out.println("Seu nome nï¿½o consta em nossos cadastros.");
 
-            System.out.println("Operação cancelada.");
+            System.out.println("Operaï¿½ï¿½o cancelada.");
 
         }
     }
