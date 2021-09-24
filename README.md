@@ -118,3 +118,16 @@ qualquer método de alteração da classe String devolve uma nova String que rep
 a classe String é uma CharSequence
 se precisamos concatenar muitos String devemos usar a classe StringBuilder
 vimos vários métodos da classe String como trim, charAt, contains, isEmpty, length, indexOf, replace
+
+No dia 23/09/21
+
+O que aprendemos?
+
+Nessa aula começamos a falar sobre lista e conhecemos a classe java.util.ArrayList. Aprendemos:
+
+que a classe java.util.ArrayList encapsula o uso do array e oferece vários métodos de mais alto nível
+que uma lista guarda referencias
+como usar métodos size, get, remove
+como usar o foreach para iterar a ArrayList
+que os generics parametrizam classes
+que no caso da ArrayList podemos definir o tipo dos elementos através de generics
