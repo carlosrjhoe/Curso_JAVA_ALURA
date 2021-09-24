@@ -131,3 +131,17 @@ como usar métodos size, get, remove
 como usar o foreach para iterar a ArrayList
 que os generics parametrizam classes
 que no caso da ArrayList podemos definir o tipo dos elementos através de generics
+
+No dia 24/09/21
+
+Nessa aula fundamental e importante aprendemos que:
+
+para ordenar uma lista é preciso definir um critério de ordenação
+há duas formas de definir esse critério
+pela interface Comparator
+pela interface Comparable (ordem natural)
+o algoritmo de ordenação já foi implementado
+na lista no método sort
+na classe Collections pelo método sort
+a classe Collections é uma fachada com vários métodos auxiliares para trabalhar com as coleções, principalmente listas
+
