@@ -153,3 +153,10 @@ Abertura de arquivos;
 Leitura linha a linha do arquivo e detecção de seu fim;
 Utilização de exceptions pelo Java IO caso a operação de leitura não saia como esperado;
 Classes abstratas e concretas para leitura.
+
+Nesta aula aprendemos sobre alguns tópicos relacionados a escrita e flexibilidade do Java IO:
+
+escrever em arquivos;
+escrever usando outputs diferentes;
+Ler e escrever dados abstraindo implementação;
+Classes abstratas e concretas para escrita e leitura.
