@@ -145,3 +145,11 @@ na lista no método sort
 na classe Collections pelo método sort
 a classe Collections é uma fachada com vários métodos auxiliares para trabalhar com as coleções, principalmente listas
 
+No dia 29/09/21
+
+Nesta aula aprendemos sobre alguns tópicos relacionados a leitura com Java IO:
+
+Abertura de arquivos;
+Leitura linha a linha do arquivo e detecção de seu fim;
+Utilização de exceptions pelo Java IO caso a operação de leitura não saia como esperado;
+Classes abstratas e concretas para leitura.

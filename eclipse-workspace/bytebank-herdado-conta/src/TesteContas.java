@@ -4,7 +4,7 @@ public class TesteContas {
 	public static void main(String[] args) throws SaldoInsuficienteException{
 		
 		int a = 3;
-		int b = a / 0;
+		int b = a / 1;
 		
 		
 		ContaCorrente outra = null;
