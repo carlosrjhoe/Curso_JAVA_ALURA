@@ -1,0 +1,8 @@
+
+public class Proograma {
+
+	public static void main(String[] args) {
+		
+		Sistem.out.println('Olá mundo')
+	}
+}
