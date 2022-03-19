@@ -1,0 +1,10 @@
+
+public class TestaConversao {
+	public static void main(String[] args) {
+		
+		double salario = 1250.70;
+		int valor = (int) salario; // Mudar um valor double para int ou visse e versa.
+		System.out.println(salario);
+		System.out.println(valor);
+	}
+}
