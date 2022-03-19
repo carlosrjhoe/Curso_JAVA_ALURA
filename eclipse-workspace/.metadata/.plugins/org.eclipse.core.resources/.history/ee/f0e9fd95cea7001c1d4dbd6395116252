@@ -1,0 +1,18 @@
+
+public class TestaCondicional {
+	public static void main(String[] args) {
+
+		int idade = 36;
+		if (idade >= 18) {
+			System.out.println("Você tem " +idade+ " anos");
+			System.out.println("Você tem mais de 18 anos!");
+			System.out.println("Pode entrar...");
+			
+		} else {
+			System.out.println("Você tem " +idade+ " anos");
+			System.out.println("Você é menor de idade.");
+			System.out.println("Você não Pode entrar...");
+		}
+		System.out.println();
+	}
+}
