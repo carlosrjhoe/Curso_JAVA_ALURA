@@ -1,0 +1,23 @@
+package bytebank;
+
+import com.sun.tools.sjavac.comp.dependencies.PublicApiCollector;
+
+public class Conta {
+	double saldo;
+	int agencia;
+	int numero;
+	String titular;
+	
+	public void deposita(double valor) {
+		// Metodo depositar
+		this.saldo = saldo + valor;
+	}
+	
+	public boolean saca(double valor) {
+		// Metodo sacar
+		if(this.saldo >= valor) {
+			this.saldo = this.saldo - valor;
+			return true;
+		}
+	}
+}

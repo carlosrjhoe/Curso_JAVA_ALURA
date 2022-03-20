@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Copy 4 elements to &apos;bytebanck-composto/src&apos;&#x0D;&#x0A;- Original project: &apos;bytebank&apos;&#x0D;&#x0A;- Destination element: &apos;bytebanck-composto/src&apos;&#x0D;&#x0A;- Original elements:&#x0D;&#x0A;     bytebank.CriaConta.java&#x0D;&#x0A;     bytebank.TesteReferencia.java&#x0D;&#x0A;     bytebank.TestaMetodo.java&#x0D;&#x0A;     bytebank.Conta.java" description="Copy compilation units" destination="=bytebanck-composto/src" element1="/src&lt;bytebank{CriaConta.java" element2="/src&lt;bytebank{TesteReferencia.java" element3="/src&lt;bytebank{TestaMetodo.java" element4="/src&lt;bytebank{Conta.java" files="0" flags="589830" folders="0" id="org.eclipse.jdt.ui.copy" policy="org.eclipse.jdt.ui.copyResources" stamp="1647742398320" units="4" version="1.0"/>
+</session>
