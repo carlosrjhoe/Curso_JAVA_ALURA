@@ -1,0 +1,9 @@
+
+public class TestaSacaValoresNegativos {
+	public static void main(String[] args) {
+		Conta contaDoNeto = new Conta();
+		contaDoNeto.deposita(100);
+		contaDoNeto.saca(200);
+		System.out.println(contaDoNeto.saldo);
+	}
+}

@@ -1,10 +1,10 @@
 
 
 public class Conta {
-	private double saldo;
+	double saldo;
 	int agencia;
 	int numero;
-	Cliente titular;
+	Cliente titular = new Cliente();
 	
 	public void deposita(double valor) {
 		// Metodo depositar
@@ -29,9 +29,5 @@ public class Conta {
 		} else {
 			return false;
 		}
-	}
-	
-	public double pegaSaldo() {
-		return this.saldo;
 	}
 }

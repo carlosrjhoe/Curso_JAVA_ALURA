@@ -1,0 +1,7 @@
+
+public class TestaSacaValoresNegativos {
+	public static void main(String[] args) {
+		Conta contaDoNeto = new Conta();
+		
+	}
+}
