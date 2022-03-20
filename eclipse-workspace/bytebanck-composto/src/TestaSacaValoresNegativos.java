@@ -4,6 +4,6 @@ public class TestaSacaValoresNegativos {
 		Conta contaDoNeto = new Conta();
 		contaDoNeto.deposita(100);
 		System.out.println(contaDoNeto.saca(200));
-		System.out.println(contaDoNeto.pegaSaldo());
+		System.out.println(contaDoNeto.getSaldo());
 	}
 }
