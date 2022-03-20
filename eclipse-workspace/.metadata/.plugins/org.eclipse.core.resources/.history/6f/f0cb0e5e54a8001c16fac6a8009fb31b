@@ -13,7 +13,5 @@ public class TestaValores {
 		Conta contaNeto = new Conta(1599, 2048786);
 		System.out.println("Agencia: " + contaNeto.getAgencia());
 		System.out.println("Cc: " + contaNeto.getNumero());
-		
-		System.out.println("Total de contas: " + Conta.getTotal());
 	}
 }

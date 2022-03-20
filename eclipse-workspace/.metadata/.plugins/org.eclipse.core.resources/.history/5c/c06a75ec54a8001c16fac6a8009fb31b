@@ -6,7 +6,6 @@ public class Conta {
 	private static int total;
 	
 	public Conta(int agencia, int numero) {
-		// Construtor
 		Conta.total++;
 		this.agencia = agencia;
 		this.numero = numero;

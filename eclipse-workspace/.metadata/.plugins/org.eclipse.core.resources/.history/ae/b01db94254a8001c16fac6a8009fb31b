@@ -6,8 +6,8 @@ public class Conta {
 	private static int total;
 	
 	public Conta(int agencia, int numero) {
-		// Construtor
 		Conta.total++;
+		System.out.println("O total de contas é: " + total);
 		this.agencia = agencia;
 		this.numero = numero;
 	}

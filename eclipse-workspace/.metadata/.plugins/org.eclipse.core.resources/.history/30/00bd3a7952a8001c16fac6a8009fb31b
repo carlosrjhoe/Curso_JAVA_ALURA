@@ -1,0 +1,11 @@
+
+public class TestaValores {
+	public static void main(String[] args) {
+		
+		Conta contaCarlos = new Conta(1599, 2028786);
+		Conta contaMayara = new Conta(1520, 2038786);
+		
+		System.out.println("Agencia: " + conta.getAgencia());
+		System.out.println("Cc: " + conta.getNumero());
+	}
+}
