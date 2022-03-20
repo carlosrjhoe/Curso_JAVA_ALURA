@@ -1,0 +1,7 @@
+package bytebank;
+
+public class TestaMetodo {
+	Conta contaDoCarlos = new Conta();
+	contaDoCarlos.saldo = 100;
+	
+}
