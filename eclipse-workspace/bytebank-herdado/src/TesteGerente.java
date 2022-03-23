@@ -8,5 +8,6 @@ public class TesteGerente {
 		System.out.println(carlos.getNome());
 		System.out.println(carlos.getSalario());
 		System.out.println(carlos.autentica(1234));
+		System.out.println(carlos.getBonificacao());
 	}
 }
