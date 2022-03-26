@@ -22,7 +22,7 @@ Vimos também os principais componentes da plataforma Java que são:
 - linguagem Java
 - Bibliotecas Java (API)
 
-## Aula 2
+## Aula 2:
 
 - Nessa aula você escreveu o seu primeiro código Java e aprendemos:
 
@@ -34,4 +34,21 @@ Vimos também os principais componentes da plataforma Java que são:
 - para abrir e fechar um bloco usaremos as chaves {}
 - um programa Java possui uma entrada que é uma função (método) main
 - para imprimir algo no console usamos a instrução System.out.println()
->>>>>>> 0dda9181b12626d3bdbdc7349006d09f15d862e7
+
+## Aula 3:
+
+- Este capítulo apresentou:
+
+- O papel de um IDE e sua diferença de um editor
+- Como fazer o download do Eclipse IDE
+Para que serve um workspace
+- O conceito de perspectiva
+- Como criar um projeto Java, inclusive classes e como executá-lo.
+- Como exibir diferentes views
+
+- Este capítulo apresentou:
+
+- O conceito e como declarar char e String
+- Como concatenar Strings
+- Atalho para criação da main
+- Variáveis guardam valores e não referências.
