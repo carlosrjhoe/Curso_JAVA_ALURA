@@ -15,7 +15,7 @@ public class Gerente extends Funcionario { // Gerente herda atributos de Funcion
 	}
 
 	public double getBonificacao() {
-		return super.getBonificacao() + super.getSalario(); // O super significa que é um atributo da classe Mãe. quando o atributo for
+		return super.getBonificacao(); // O super significa que é um atributo da classe Mãe. quando o atributo for
 															// extendido de outra classe, é uma boa prática colocar como super.
 	}
 

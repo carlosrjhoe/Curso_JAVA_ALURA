@@ -1,0 +1,12 @@
+
+public class TesteReferencias {
+	public static void main(String[] args) {
+		Funcionario neto = new Gerente();
+		neto.setNome("Neto");
+		String nome = neto.getNome();
+		
+		neto.autentica(1234);
+		
+		System.out.println(nome);
+	}
+}

@@ -1,0 +1,7 @@
+
+public class Contapoupanca extends Conta {
+	
+	public Contapoupanca(int agencia, int numero) {
+		super(agencia, numero);
+	}
+}

@@ -1,0 +1,10 @@
+
+public class TesteGerente {
+	public static void main(String[] args) {
+		Gerente carlos = new Gerente();
+		carlos.setNome("Carlos");
+		carlos.setSalario(3500);
+		System.out.println(carlos.getNome());
+		System.out.println(carlos.getSalario());
+	}
+}
