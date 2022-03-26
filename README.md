@@ -1,17 +1,10 @@
-<<<<<<< HEAD
 
-## Aprendendo uma nova linguagem de programação, JAVA.
-=======
 # Aprendendo uma nova linguagem de programação, JAVA.
 
 ## Aula 1:
->>>>>>> 0dda9181b12626d3bdbdc7349006d09f15d862e7
 
 - O papel de um IDE e sua diferença de um editor Como fazer o download do Eclipse IDE Para que serve um workspace O conceito de perspectiva Como criar um projeto Java, inclusive classes e como executá-lo. Como exibir diferentes views
 
-<<<<<<< HEAD
-- O papel de um IDE e sua diferença de um editor Como fazer o download do Eclipse IDE Para que serve um workspace O conceito de perspectiva Como criar um projeto Java, inclusive classes e como executá-lo. Como exibir diferentes views
-=======
 - Nessa aula introdutória já aprendemos vários assuntos fundamentais sobre Java.
 
 - Falamos sobre as principais características da linguagem Java como:
