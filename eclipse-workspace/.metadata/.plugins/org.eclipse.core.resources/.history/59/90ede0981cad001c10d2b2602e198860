@@ -1,0 +1,20 @@
+package br.com.alura.java.io.teste;
+
+import java.io.BufferedWriter;
+import java.io.FileOutputStream;
+import java.io.IOException;
+import java.io.OutputStream;
+
+public class TesteEscrita {
+	
+	public static void main(String[] args) throws IOException {
+		
+		//Fluxo de entrada com Arquivo
+		OutputStream fos = new FileOutputStream("lorem.txt");
+		FileOutputStream osw = new FileOutputStream(fos);
+		BufferedWriter bw = new BufferedWriter(osw);
+		
+		
+		bw.close();
+	}
+}

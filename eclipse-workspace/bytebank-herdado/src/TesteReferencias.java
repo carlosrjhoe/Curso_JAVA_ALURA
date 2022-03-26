@@ -5,18 +5,12 @@ public class TesteReferencias {
 		neto.setNome("Neto");
 		neto.setSalario(5000.0);
 		
-		Funcionario emilly = new Funcionario();
-		emilly.setNome("Emilly");
-		emilly.setSalario(2500.0);
-		
-		Funcionario mae = new Funcionario();
-		mae.setNome("Rose");
-		mae.setSalario(2000.0);
+		Designer carlos = new Designer();
+		carlos.setSalario(3018.0);
 		
 		ControleBonificacao controle = new ControleBonificacao();
 		controle.registra(neto);
-		controle.registra(emilly);
-		controle.registra(mae);
+		controle.registra(carlos);
 		
 		System.out.println(controle.getSoma());
 	}

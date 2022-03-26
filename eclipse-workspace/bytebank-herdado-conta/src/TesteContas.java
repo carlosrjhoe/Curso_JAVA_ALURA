@@ -1,5 +1,5 @@
 
-public class TesteContas {
+public abstract class TesteContas {
 
 	public static void main(String[] args) {
 		
