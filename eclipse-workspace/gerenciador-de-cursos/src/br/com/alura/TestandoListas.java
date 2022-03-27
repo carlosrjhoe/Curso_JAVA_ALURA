@@ -1,6 +1,5 @@
 package br.com.alura;
 
-import java.awt.Desktop.Action;
 import java.util.ArrayList;
 import java.util.Collections;
 
